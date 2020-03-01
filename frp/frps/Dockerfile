@@ -26,4 +26,4 @@ USER 1000
 
 EXPOSE ${FRPS_BIND_PORT} ${FRPS_DASHBOARD_PORT}
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]            
