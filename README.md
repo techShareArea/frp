@@ -1,2 +1,2 @@
 # frp
-about frp use
+about frp use method
