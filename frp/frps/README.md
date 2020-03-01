@@ -65,4 +65,4 @@ web访问frps-dashboard-->公网ip:7500
 输入账户:admin，密码:123456进入dashboard  
 
 #### frp文档参阅
-[frp](https://github.com/fatedier/frp)    
+[frp](https://github.com/fatedier/frp)             
