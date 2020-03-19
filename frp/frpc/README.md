@@ -41,7 +41,7 @@ EOF
 
 ##### 部署方式一:
 需要的环境变量已植入，如若不想替换，可直接运行如下命令:     
-> docker run -d -p 7400:7400 -e FRPC_SERVER_ADDR=47.115.42.204 -e FRPC_SSH_LOCAL_IP=10.0.5.225 frpc              
+> docker run -d -p 7400:7400 -e FRPC_SERVER_ADDR=47.115.42.204 -e FRPC_SSH_LOCAL_IP=10.0.5.225 --name frpc techsharearea/frpc:2020             
 
 注:FRPC_SSH_LOCAL_IP为客户端宿主机ip
 
@@ -71,7 +71,7 @@ docker run -d \
   -e FRPC_SSH_LOCAL_IP=10.0.5.225 \         #客户端宿主机IP
   -e FRPC_SSH_REMOTE_PORT=33333 \           #客户端暴露的端口，在服务端用于ssh连接      
   --add-host my-aliyun-ecs:47.115.42.204 \  #容器中/etc/hosts文件增加47.115.42.204  my-aliyun-ecs记录
-  techsharearea/frps:2020   
+  techsharearea/frpc:2020   
 ```
 注:需要替换更多，请自行调整     
 
